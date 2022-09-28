@@ -1,7 +1,46 @@
 body{
     
-    /* padding-left: 55px;
-    padding-right: 55px; */
     margin: auto;
-    max-width: 1440px;
 }
+
+.navbar{
+    background-color: blanchedalmond;
+    box-shadow: 0.3em 0.3em 1em rgba(8, 8, 8, 0.3);
+    
+    
+}
+.navbar_buttons{
+    /* vertical-align: middle; */
+    
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo_img{
+    padding: 100px;
+    margin: auto;
+    display: flex;
+    vertical-align: middle;
+}
+.navbar_right{
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.signin_button {
+    transition-duration: 0.4s;
+    width: 78px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 0.5px solid #a7a7a7;
+    float: right;
+  }
+  
+  .signin_button:hover {
+    background-color: gray; /* Green */
+    color: white;
+    /* vertical-align: middle; */
+  }
+  /* .basket_icon{
+    
+  } */
